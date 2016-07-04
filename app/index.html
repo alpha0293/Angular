@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>App build by AngularJS</title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script type="text/javascript" src="./javascripts/app.js" ></script>
+</head>
+<body ng-app="myApp">
+	<div ng-controller="ShowMessger">
+		{{messager}}<br>
+		{{title}}<br>
+
+		<!-- truy xuất dữ liệu của 1 Object -->
+		{{data.aaa}}
+	</div>
+	<div ng-controller="Controller1">
+		{{data}}
+	</div>
+	<!-- <input type="text" ng-model="us">	<br>
+	{{us}} -->
+</body>
+</html>
